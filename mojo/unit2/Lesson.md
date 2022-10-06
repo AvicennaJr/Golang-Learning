@@ -93,7 +93,7 @@ if err != nil { // if there is an error
 } else { // if there is no error
     fmt.Println("Your age is:", age)
 }
-
+</pre>
 ### Conversion Cheat Sheet
 
 Use Parse to convert string to Bools, Floats or Intergers
