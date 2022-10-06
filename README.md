@@ -34,5 +34,5 @@ learning so far.
 ## Resources:
 
 * Go Programming Language for Dummies
-* Golang Tour Guide
-* Exercism for practice exercises
+* [Golang Tour Guide](https://go.dev/tour)
+* [Exercism for practice exercises](https://exercism.org/tracks/go/exercises)
