@@ -11,7 +11,7 @@ Use `var` keyword and assign it to a value:
 
 - Explicitly Typed Variables
 You specify the data type:
-`var num2`
+`var num2 int`
 
 - Shorthand Declaration
 Can use one of these:
