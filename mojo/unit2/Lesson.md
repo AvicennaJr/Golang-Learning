@@ -15,10 +15,12 @@ You specify the data type:
 
 - Shorthand Declaration
 Can use one of these:
+<pre>
 `name := 'mojo'`
 `name, age := 'avi', 55`
 `first, second string = mojo, avi // All must be of the same type`
 `var name, age = 'mojo', 25 // allowed since data type was specified`
+</pre>
 
 <pre>
 var (
@@ -45,13 +47,13 @@ declare an unused variable inside a function use: `_ = num`
 
 Has escape characters like `\n and \t`
 
-For raw strings, enclose it with `. Example:
+For raw strings, enclose it with:
 
 <pre>
 `This will print it
 self as it
 is. Similar to "'''" in
-python
+python`
 </pre>
 
 Strings can also be non english ones (like chinese or arabic)
@@ -120,7 +122,7 @@ You can use:
 
 A better solution is :
 
-s := fmt.Sprintf("%s, your number is %d", name, num)
+`s := fmt.Sprintf("%s, your number is %d", name, num)`
 
 Here's a list of flags available:
 <pre>
@@ -152,4 +154,4 @@ You can use a more General format without specifying the type:
 
 <pre>
 s := fmt.Sprintf("%v, your number is %v", name, num)
-
+</pre>
