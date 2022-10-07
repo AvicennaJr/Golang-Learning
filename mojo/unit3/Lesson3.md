@@ -4,7 +4,7 @@
 
 ### Comparison Operators
 
-
+<pre>
 Operator  Description
     ==      Equal to
     !=      Not equal to
@@ -12,12 +12,14 @@ Operator  Description
     <=      Less than or equal to
     >       Greater than
     >=      Greater than or equal to
+</pre>
 
 Combining Operators:
-
+<pre>
     &&      x && y
     ||      x || y
     !       !x
+</pre>
 
 ### if/else Statements
 
