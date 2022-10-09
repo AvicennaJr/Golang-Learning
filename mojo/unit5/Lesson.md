@@ -271,7 +271,7 @@ func main() {
 
 ### Implementing Filter Functions using Closures
 
-I was wondering why closures are useful, turns out that they make it easy to
+I was wondering where closures can be implemented, turns out that they make it easy to
 implement filter functions, mapping functions etc. Heres an example:
 
 <pre>
