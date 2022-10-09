@@ -20,6 +20,7 @@ func main() {
     
    // Using the short variable declaration operator
    // firstName := "Wei-Meng"
+   //:= only works in functions and the lower case 't' is so that it is only visible to the package (unexported).
    // firstName, lastName, age := "Wei-Meng", "Lee", 25
    // var firstName, lastName string = "Wei-Meng", "Lee"
    
