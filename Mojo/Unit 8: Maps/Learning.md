@@ -169,6 +169,7 @@ func main() {
         p[i] = kv[k, v]
         i++
     }
+</pre>
 
 ## Struct and Maps
 
