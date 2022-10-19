@@ -55,7 +55,50 @@ learning so far.
 
 ## Section Three: Multitasking
 
- > To be continued
+### Unit 11: Goroutines
+
+- [ ] Understanding Goroutines
+- [ ] Using Goroutines with shared resources
+- [ ] Synchronizing Goroutines
+
+### Unit 12: Communicating Goroutines with Channels
+
+- [ ] Understanding Channels
+- [ ] Iterating through channels
+- [ ] Asynchronously waiting on channels
+- [ ] Using buffered channels
+
+## Section Four: Organizing Code
+
+### Unit 13: Using and Creating packages in Go
+
+- [ ] Working with Packages
+- [ ] Using third party Packages
+
+### Unit 14: Grouping packages into Modules
+
+- [ ] Creating a module
+- [ ] Testing and Building a module
+- [ ] Publishing a module on github
+
+# Extras
+
+The following Units are not mandatory but will be good for practice
+
+## Section Five: Go in Action
+
+### Unit 15: Consuming Web APIs
+
+- [ ] Fetching data from Web services
+
+### Unit 16: Serving REST APIs
+
+- [ ] Building  web services using REST APIs
+- [ ] Creating a REST API in Go
+
+### Unit 17: Working with Databases
+
+- [ ] Connecting to a Database with Go
 
 ## Resources:
 
