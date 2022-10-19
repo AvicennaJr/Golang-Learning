@@ -2,9 +2,13 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
+func displayTime() {
+	fmt.Println(time.Now())
+}
+
 func main() {
-	fmt.Println("Hello, 世界")
-	displayTime()
+        displayTime()
 }
