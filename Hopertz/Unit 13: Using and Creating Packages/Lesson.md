@@ -9,16 +9,16 @@ serves as the entry point to your application.
 all be in lowercase.*
 
 *Also to run a program that has multiple packages (eg main.go, point.go) use go
-run * .go*
+run * .go*  on windows we use run .
 
 ## Creating Shareable Packages
 
-You can add the code into your go path (/home/mojo/go) inside a folder called
-src. So the structure is /home/mojo/go/src/geometry/point.go. Install the package
+You can add the code into your go path (/home/hopertz/go) inside a folder called
+src. So the structure is /home/hopertz/go/src/geometry/point.go. Install the package
 with `go install` (while being inside the geometry folder) Then you can import the
 geometry package like "fmt" and use it like `pt1 := geometry.Point{X:1, Y:2}`.
 
-*Note that point.go will be of package geometry*
+*Note that point.go should be of package geometry and not main*
 
 ## Organizing Packages into directories
 
